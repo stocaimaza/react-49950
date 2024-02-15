@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import {getFirestore} from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCgQDa0YWQropg6Ctfqn-2oWc8rSpPD5wo",
+  apiKey: import.meta.env.VITE_API_KEY_FIREBASE_CONFIG,
   authDomain: "marolio-supermercado.firebaseapp.com",
   projectId: "marolio-supermercado",
   storageBucket: "marolio-supermercado.appspot.com",
